@@ -1,26 +1,26 @@
-# 🏆 Frontend Mastery Reading Timeline & Progress Tracker
+# Frontend Mastery Reading Timeline & Progress Tracker
 
 > A structured 12–18 month roadmap to world-class frontend engineering, mapped to levels with trackable tasks.
 
 ---
 
-## 📊 Progress Overview
+## Progress Overview
 
-| Level                              | Status        | Progress |
-| ---------------------------------- | ------------- | -------- |
-| 🟢 Level 1 — Foundations            | `Not Started` | `0/8`    |
-| 🔵 Level 2 — Core Craft             | `Not Started` | `0/10`   |
-| 🟣 Level 3 — Architecture & Systems | `Not Started` | `0/10`   |
-| 🟠 Level 4 — AI-Native & Edge       | `Not Started` | `0/8`    |
-| 🔴 Level 5 — Elite Engineer         | `Not Started` | `0/8`    |
+| Level                      | Status        | Progress |
+| -------------------------- | ------------- | -------- |
+| [1] Foundations            | `Not Started` | `0/8`    |
+| [2] Core Craft             | `Not Started` | `0/10`   |
+| [3] Architecture & Systems | `Not Started` | `0/10`   |
+| [4] AI-Native & Edge       | `Not Started` | `0/8`    |
+| [5] Elite Engineer         | `Not Started` | `0/8`    |
 
 ---
 
-## 🟢 Level 1 — Foundations (Months 1–2)
+## [1] Foundations (Months 1–2)
 
-*Solidify the bedrock every great engineer stands on. Speed through what you know; deep-dive what you don't.*
+Solidify the bedrock every great engineer stands on. Speed through what you know; deep-dive what you don't.
 
-### 📚 Reading List
+### Reading List
 
 - [ ] **"JavaScript: The Good Parts"** by Douglas Crockford *(if skipped before)*
 - [ ] **"You Don't Know JS" (YDKJS)** — Scope & Closures + This & Object Prototypes *(Kyle Simpson)*
@@ -28,7 +28,7 @@
 - [ ] **"Refactoring UI"** by Adam Wathan & Steve Schoger *(design intuition for engineers)*
 - [ ] **Google Web.dev** — Core Web Vitals guides (all 3 metrics)
 
-### 🛠️ Practical Tasks
+### Practical Tasks
 
 - [ ] Build a **vanilla JS SPA** (no framework) with routing, state management, and DOM diffing to understand the "magic" React abstracts
 - [ ] Implement a **custom Promise** from scratch
@@ -39,7 +39,7 @@
 - [ ] Complete **TypeScript Documentation** — Advanced Types section end-to-end
 - [ ] Build a **commit-message linting CI pipeline** for one project (extend your existing convention)
 
-### 🎯 Level 1 Completion Criteria
+### Level 1 Completion Criteria
 
 - [ ] All reading complete with notes saved in your second brain (Notion/Obsidian)
 - [ ] Vanilla JS project pushed to GitHub with README explaining architecture decisions
@@ -48,11 +48,11 @@
 
 ---
 
-## 🔵 Level 2 — Core Craft (Months 3–5)
+## [2] Core Craft (Months 3–5)
 
-*Become dangerous at the intersection of performance, TypeScript, and component architecture.*
+Become dangerous at the intersection of performance, TypeScript, and component architecture.
 
-### 📚 Reading List
+### Reading List
 
 - [ ] **"Designing Data-Intensive Applications"** (DDIA) by Martin Kleppmann — Chapters 1–5 *(data model & storage thinking)*
 - [ ] **"Effective TypeScript"** by Dan Vanderkam — 62 specific items
@@ -61,7 +61,7 @@
 - [ ] **"The Elements of UI Engineering"** by Dan Abramov (blog series)
 - [ ] **Next.js 15+ docs** — App Router, caching semantics, Server Actions
 
-### 🛠️ Practical Tasks
+### Practical Tasks
 
 - [ ] Build a **design system monorepo** (Turborepo + Changesets + Storybook) with 10+ components; publish to npm
 - [ ] Achieve **100/100/100/100 Lighthouse** on a real project (Performance, Accessibility, Best Practices, SEO)
@@ -74,7 +74,7 @@
 - [ ] Deep-dive **CSS containment, `content-visibility`, and `contain`** in a performance-critical component
 - [ ] Open a **PR to an open-source library** you use (even docs or types count)
 
-### 🎯 Level 2 Completion Criteria
+### Level 2 Completion Criteria
 
 - [ ] Design system published on npm with semantic versioning
 - [ ] Case study blog post #2: "How I achieved 100 Lighthouse on [project]"
@@ -83,11 +83,11 @@
 
 ---
 
-## 🟣 Level 3 — Architecture & Systems (Months 6–9)
+## [3] Architecture & Systems (Months 6–9)
 
-*Think like a staff engineer. Systems over components. Tradeoffs over defaults.*
+Think like a staff engineer. Systems over components. Tradeoffs over defaults.
 
-### 📚 Reading List
+### Reading List
 
 - [ ] **"Designing Data-Intensive Applications"** — Chapters 6–12 *(distributed systems, consistency, consensus)*
 - [ ] **"The Staff Engineer's Path"** by Tanya Reilly
@@ -97,7 +97,7 @@
 - [ ] **"Clean Architecture"** by Robert C. Martin *(apply frontend-specific thinking)*
 - [ ] **"A Philosophy of Software Design"** by John Ousterhout
 
-### 🛠️ Practical Tasks
+### Practical Tasks
 
 - [ ] Architect a **frontend platform** for a hypothetical 50-engineer team: monorepo structure, shared CI/CD, deployment graph, testing strategy
 - [ ] Design and build a **distributed state system** (Zustand + server state sync, or experiment with Tinybase/Redux-offline)
@@ -110,7 +110,7 @@
 - [ ] Build a **fully accessible component library** — WCAG 2.2 AA compliant; test with screen readers
 - [ ] Write a **testing strategy** for a complex UI: unit, integration, visual regression, E2E (Playwright)
 
-### 🎯 Level 3 Completion Criteria
+### Level 3 Completion Criteria
 
 - [ ] Architecture document published (blog or internal wiki)
 - [ ] One mentee ships a feature to production
@@ -119,11 +119,11 @@
 
 ---
 
-## 🟠 Level 4 — AI-Native & Edge (Months 10–13)
+## [4] AI-Native & Edge (Months 10–13)
 
-*Build the future. AI-augmented interfaces, edge-native apps, and real-time collaborative systems.*
+Build the future. AI-augmented interfaces, edge-native apps, and real-time collaborative systems.
 
-### 📚 Reading List
+### Reading List
 
 - [ ] **"Hands-On Large Language Models"** by Jay Alammar & Maarten Grootendorst
 - [ ] **"Building LLM Applications"** by Chip Huyen (free online)
@@ -133,7 +133,7 @@
 - [ ] **Fly.io / Cloudflare Workers docs** — edge runtime deep dive
 - [ ] **Liveblocks / PartyKit / Yjs** documentation and architecture blogs
 
-### 🛠️ Practical Tasks
+### Practical Tasks
 
 - [ ] Build an **AI-native UI** with streaming responses, tool-calling, and "thinking" states (like Cursor or ChatGPT)
 - [ ] Implement **RAG (Retrieval-Augmented Generation)** with a frontend that visualizes source documents
@@ -144,7 +144,7 @@
 - [ ] Create an **AI agent loop** in a frontend: tool definitions, execution planning, and UI state machines
 - [ ] Ship a **production app** that uses LLMs as a core feature (not just a chatbot — integrated into workflow)
 
-### 🎯 Level 4 Completion Criteria
+### Level 4 Completion Criteria
 
 - [ ] AI-native app deployed and used by real people (even just your team)
 - [ ] Technical blog post #4: "Building real-time collaborative AI interfaces"
@@ -153,11 +153,11 @@
 
 ---
 
-## 🔴 Level 5 — Elite Engineer (Months 14–18+)
+## [5] Elite Engineer (Months 14–18+)
 
-*Impact at scale. Thought leadership. Building other engineers.*
+Impact at scale. Thought leadership. Building other engineers.
 
-### 📚 Reading List
+### Reading List
 
 - [ ] **"The Mythical Man-Month"** by Frederick Brooks
 - [ ] **"High Output Management"** by Andrew Grove
@@ -167,7 +167,7 @@
 - [ ] **"The DevOps Handbook"** — relevant chapters on CI/CD and deployment
 - [ ] **Subscribe to and read**: Vercel Engineering, Linear's blog, Figma's engineering blog, and Dan Abramov's essays
 
-### 🛠️ Practical Tasks
+### Practical Tasks
 
 - [ ] **Define and ship** a frontend platform initiative at Interswitch that affects 10+ engineers
 - [ ] **Speak at a tech conference** or host a well-attended meetup talk
@@ -178,7 +178,7 @@
 - [ ] **Build a personal brand**: consistent technical writing, Twitter/X threads, or YouTube
 - [ ] **Lead a hiring process**: define an interview loop for senior frontend engineers at your company
 
-### 🎯 Level 5 Completion Criteria
+### Level 5 Completion Criteria
 
 - [ ] Public talk delivered (conference, meetup, or recorded webinar)
 - [ ] Technical content published consistently for 6+ months
@@ -187,7 +187,7 @@
 
 ---
 
-## 🗓️ Weekly Rhythm Template
+## Weekly Rhythm Template
 
 | Day           | Focus                                                          |
 | ------------- | -------------------------------------------------------------- |
@@ -200,7 +200,7 @@
 
 ---
 
-## 📈 Progress Tracking Rules
+## Progress Tracking Rules
 
 1. **Check the box only after you can explain the concept to someone else** (Feynman technique).
 2. **Every level must have at least one shipped project or published post** before advancing.
@@ -209,7 +209,7 @@
 
 ---
 
-## 📝 Monthly Reflection Prompts
+## Monthly Reflection Prompts
 
 At the end of each month, answer these in a new note:
 
@@ -221,15 +221,15 @@ At the end of each month, answer these in a new note:
 
 ---
 
-## 💡 Motivation Anchors
+## Motivation Anchors
 
-> *"The world doesn't need another React developer. It needs frontend engineers who can design performant, accessible, AI-native systems — and communicate why it matters."*
+> "The world doesn't need another React developer. It needs frontend engineers who can design performant, accessible, AI-native systems — and communicate why it matters."
 
-> *"You already have the right sensibility. Scale it by shipping more, teaching more, and going deeper into the stack."*
+> "You already have the right sensibility. Scale it by shipping more, teaching more, and going deeper into the stack."
 
 ---
 
 **Last Updated:** 2026-05-02
 **Started:** ___________
-**Current Level:** 🟢 Level 1 — Foundations
+**Current Level:** [1] Foundations
 **Next Milestone:** Complete Level 1 + publish first blog post
